@@ -1,0 +1,392 @@
+body {
+  .breadcrumbs {
+    padding: 27px 15px 0;
+    background-color: white;
+
+    .breadcrumb-list {
+      font-family: "Poppins", sans-serif;
+      font-size: 12px;
+      color: #787878;
+
+      li {
+        list-style: none;
+      }
+
+      .breadcrumb-items {
+        padding: 5px 0;
+        line-height: 1;
+        vertical-align: top;
+        display: inline;
+        text-transform: unset;
+        span {
+          margin: 0 7px;
+        }
+        a {
+          color: #787878;
+          font-size: inherit;
+          text-decoration: none;
+          margin: 0 7px;
+        }
+      }
+    }
+  }
+  .blog-news {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: unset;
+    line-height: 1.3;
+    margin-left: 20px;
+    font-size: 34px;
+    margin-bottom: 40px;
+  }
+  .sidebar-search {
+    width: 270px;
+    margin: 0 0 30px 0;
+
+    .search-heading {
+      font-size: 20px;
+      line-height: 20px;
+      text-transform: capitalize;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      position: relative;
+      margin-bottom: 27px;
+    }
+    .search-input {
+      position: relative;
+
+      .form-control {
+        border: 30px 10px;
+      }
+
+      input {
+        // margin-top: 10px;
+        color: #787878;
+        border: 1px solid;
+        padding-right: 30px;
+        height: 50px;
+      }
+
+      .search-icon {
+        height: 50px;
+        position: absolute;
+        right: 0px;
+        padding: 10px 12px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .sidebar-blog {
+    width: 270px;
+    border: 1px solid black;
+    border-right: none;
+    border-left: none;
+    .sidebar-content {
+      .content-list {
+        padding-left: 0 !important;
+        .content-items {
+          margin-bottom: 8px;
+          vertical-align: top;
+
+          a {
+            cursor: pointer;
+            text-transform: capitalize;
+            color: #787878;
+            font-weight: 500;
+            text-decoration: none;
+            font-size: 12px;
+            &:hover {
+              color: rgb(70, 66, 66);
+            }
+          }
+        }
+      }
+    }
+    .blog-heading {
+      margin: 27px 0;
+      font-size: 20px;
+      line-height: 20px;
+      text-transform: capitalize;
+      font-family: Poppins, sans-serif;
+      font-weight: 500;
+      position: relative;
+      cursor: pointer;
+    }
+  }
+  .recentSection {
+    .recent-blog {
+      width: 270px;
+      margin: 20px 0 30px 0;
+      border-bottom: 1px solid black;
+
+      .recentPosts-list {
+        .recent-items {
+          padding-bottom: 30px;
+          display: flex;
+          width: 250px;
+
+          .recent-posts {
+            padding-left: 20px;
+            h5 {
+              a {
+                color: #1e1e1e;
+                line-height: 24px;
+                padding-top: 3px;
+                margin: 0;
+                font-weight: 500;
+                font-size: 12px;
+                text-transform: capitalize;
+                text-decoration: none;
+              }
+            }
+            p {
+              display: inline-block;
+              line-height: 28px;
+              font-style: italic;
+              margin: 3px 0 0;
+              color: #787878;
+              font-size: 14px;
+            }
+          }
+
+          a {
+            .recent-img {
+              display: inline-block;
+              object-fit: cover;
+              border-radius: 7px;
+              display: inline-block;
+              width: 85px;
+              height: 85px;
+              border-radius: 10%;
+            }
+          }
+        }
+      }
+      .recent-heading {
+        margin: 27px 0;
+        font-size: 20px;
+        line-height: 20px;
+        text-transform: capitalize;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        position: relative;
+      }
+    }
+  }
+  .sellersSection {
+    display: flex;
+    .best-sellers {
+      width: 270px;
+      margin: 20px 0 30px 0;
+      border-bottom: 1px solid black;
+      .seller-list {
+        .seller-items {
+          .product-img {
+            a{
+              display: flex;
+            }
+          }
+
+          .product-content {
+            display: inline-block;
+            .product-details {
+              a {
+                text-decoration: none;
+              }
+              .productDetails {
+                font-size: 13px;
+                position: relative;
+                font-weight: 500;
+                line-height: 24px;
+                color: #17a8a3;
+              }
+            }
+            .product-variant {
+              margin-bottom: 18px;
+              display: flex;
+
+              .beige-variant,
+              .beige-variant2 {
+                display: block;
+                background-color: beige;
+                width: 19px;
+                height: 19px;
+                line-height: 19px;
+                margin: 0;
+                border-radius: 50%;
+                cursor: pointer;
+                pointer-events: auto;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                border: 2px solid #fff;
+                box-shadow: 0 0 0px 1px #e7e7e7;
+                margin-right: 2px;
+                margin-left: 5px;
+              }
+              .grey-variant {
+                display: block;
+
+                background-color: grey;
+                width: 19px;
+                height: 19px;
+                line-height: 19px;
+                margin-bottom: 5px;
+                margin: 0;
+                border-radius: 50%;
+                cursor: pointer;
+                pointer-events: auto;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                border: 2px solid #fff;
+                box-shadow: 0 0 0px 1px #e7e7e7;
+                margin-left: 5px;
+              }
+              .white-variant {
+                display: block;
+
+                background-color: white;
+                border: 1px solid #dadada;
+                width: 19px;
+                height: 19px;
+                line-height: 19px;
+                margin: 0;
+                border-radius: 50%;
+                cursor: pointer;
+                pointer-events: auto;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                margin-left: 5px;
+                box-shadow: 0 0 0px 1px #e7e7e7;
+              }
+              .lightCoral-variant {
+                display: block;
+
+                background-color: lightcoral;
+                width: 19px;
+                height: 19px;
+                line-height: 19px;
+                margin: 0;
+                border-radius: 50%;
+                cursor: pointer;
+                pointer-events: auto;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                border: 2px solid #fff;
+                margin-bottom: 5px;
+                box-shadow: 0 0 0px 1px #e7e7e7;
+              }
+            }
+            display: block;
+            padding-left: 20px;
+            .product-sale {
+              display: block;
+              color: #787878;
+              line-height: 24px;
+              padding-top: 3px;
+              margin: 0;
+              font-weight: 400;
+              font-size: 14px;
+              text-transform: capitalize;
+              text-decoration: none;
+              .on-sale {
+                display: inline-block;
+
+                font-size: 14px;
+                text-decoration: line-through;
+              }
+              .actual-price {
+                display: inline-block;
+
+                font-family: "300" "Poppins", sans-serif;
+                font-size: 14px;
+
+                margin-left: 4px;
+                color: rgb(255, 86, 86);
+                display: inline-block;
+              }
+              p {
+                display: inline-block;
+                padding-left: 4px;
+              }
+            }
+            .product-title {
+              a {
+                color: #1e1e1e;
+                line-height: 24px;
+                padding-top: 3px;
+                margin: 0;
+                font-weight: 500;
+                font-size: 12px;
+                text-transform: capitalize;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+      .sellersHeading {
+        font-size: 20px;
+        line-height: 20px;
+        text-transform: capitalize;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        position: relative;
+        margin: 27px 0;
+        a {
+          text-decoration: none;
+          position: absolute;
+          font-size: 12px;
+          color: #17a8a3;
+          right: 0;
+          border-bottom: 1px solid;
+          line-height: 1.4;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  .herbalSection {
+    .herbal-tea {
+      width: 270px;
+      margin: 20px 0 30px 0;
+      border-bottom: 1px solid black;
+      img {
+        margin-bottom: 40px;
+      }
+    }
+  }
+  .customSection {
+    .custom-block {
+      width: 270px;
+      margin: 20px 0 30px 0;
+
+      .block-heading {
+        margin: 27px 0;
+        font-size: 20px;
+        line-height: 20px;
+        text-transform: capitalize;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        position: relative;
+      }
+      .block-content {
+        p {
+          line-height: 24px;
+          color: #787878;
+          margin: 0 0 15px;
+          font-size: 12px;
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: 100;
+        }
+      }
+    }
+  }
+  
+}
